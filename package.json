@@ -1,0 +1,16 @@
+{
+  "name": "playground-api-gateway-aws-signature-v4",
+  "version": "1.0.0",
+  "description": "A demo app that uses AWS Signature V4 for Auth",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "cd acceptance-tests && npm ci",
+    "test": "cd acceptance-tests && npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

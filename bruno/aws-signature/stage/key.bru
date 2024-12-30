@@ -1,0 +1,30 @@
+meta {
+  name: key
+  type: http
+  seq: 1
+}
+
+post {
+  url: https://{{API_GATEWAY_ID}}.execute-api.eu-west-1.amazonaws.com/{{STAGE_NAME}}/key
+  body: json
+  auth: awsv4
+}
+
+headers {
+  x-request-id: 1648-alex-bruno
+}
+
+auth:awsv4 {
+  accessKeyId: {{ACCESS_KEY_ID}}
+  secretAccessKey: {{SECRET_ACCESS_KEY}}
+  sessionToken: {{SESSION_TOKEN}}
+  service: execute-api
+  region: eu-west-1
+  profileName: 
+}
+
+body:json {
+  {
+    "example": "hello world"
+  }
+}
