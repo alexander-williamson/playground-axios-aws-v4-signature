@@ -1,4 +1,4 @@
-# playground-api-gateway-aws-signature-v4
+# playground-axios-aws-v4-signature
 
 A demo app that uses AWS Signature V4 for Auth
 
